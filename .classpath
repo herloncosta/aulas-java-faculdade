@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="intro-java/|agrupamento_objetos/collectors-api/|heranca-polimorfismo/" kind="src" path=""/>
+	<classpathentry kind="src" path="agrupamento_objetos/collectors-api"/>
+	<classpathentry kind="src" path="heranca-polimorfismo"/>
+	<classpathentry kind="src" path="intro-java"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

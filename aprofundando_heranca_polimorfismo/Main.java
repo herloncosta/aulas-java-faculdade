@@ -14,5 +14,11 @@ public class Main {
 
         Pessoa aluno = new Aluno("Herlon", "Brasileiro", "Simões Filho - Bahia");
         System.out.println("Nome: " + aluno.getNome() + " Matrícula: " + ((Aluno)aluno).getMatricula());
+        
+        // instanceof	
+        
+        Object veiculo = new Drozd();
+        System.out.printf("É instância de Terreste? %b \n", veiculo instanceof Terrestre);
+        System.out.printf("É instância de Carro? %b \n", veiculo instanceof Carro);
     }
 }
